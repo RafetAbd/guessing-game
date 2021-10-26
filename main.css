@@ -1,1 +1,32 @@
 /* Write your CSS code in this file */
+
+div {
+    padding-left: 430px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('https://pngimage.net/wp-content/uploads/2019/05/begron-hijau-png-2.png')
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+li {
+    font-size: 30px;
+}
+
+input {
+    font-size: 22px;
+}
+
+button {
+    font-size: 22px;
+}
