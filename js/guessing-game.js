@@ -52,7 +52,7 @@ class Game {
     };
 
     checkGuess() {
-        if ( this.playersGuess === this.winningNumber ) this.feedbackText =  'You Win!';
+        if ( this.playersGuess === this.winningNumber ) this.feedbackText =  `You Win! it is ${this.winningNumber}`;
         else if ( this.pastGuesses.includes(this.playersGuess) ) this.feedbackText =  "You have already guessed that number, try again";
         else {
             this.pastGuesses.push(this.playersGuess);
