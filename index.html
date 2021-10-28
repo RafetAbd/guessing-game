@@ -10,29 +10,34 @@
 
   <body>
     <div>
-      <h1>My Guessing Game</h1>
+      <h1 id='main-title'>My Guessing Game</h1>
 
       <h3>Previous Guesses</h3>
-      <ul>
-        <li>5</li>
-        <li>45</li>
-        <li>66</li>
-        <li>22</li>
+      <ul id='Previous-Guesses'>
+        <li>--</li>
+        <li>--</li>
+        <li>--</li>
+        <li>--</li>
+        <li>--</li>
       </ul>
 
-      <h2>One Guess Remaining, you are close!</h2>
+
+
+
+      <h2 id='phraseDisplayed'>Guess a number between 1 and 100</h2>
 
      <p>
-        <input type='number' placeholder="enter guess here">
-        <button>Submit Guess</button>
-        <button>Play Again</button>
-        <button>Hint</button>
+        <input type='number' placeholder="enter guess here" id='input'>
+        <button id='submit-Button'>Submit Guess</button>
+        <button id='play-again-Button'>Play Again</button>
+        <button id='hint-Button'>Hint</button>
       </p>
+      <h5 id='name'>by RAFET A.</h5>
     </div>
 
  
     
-    <!-- <script src='js/guessing-game.js'></script> -->
+    <script src='js/guessing-game.js'></script>
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
 

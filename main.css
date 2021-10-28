@@ -2,12 +2,12 @@
 
 div {
     padding-left: 430px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-image: url('https://pngimage.net/wp-content/uploads/2019/05/begron-hijau-png-2.png')
 }
 
-h1 {
+#main-title {
     font-size: 75px;
 }
 
@@ -29,4 +29,12 @@ input {
 
 button {
     font-size: 22px;
+}
+
+#name {
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
 }
